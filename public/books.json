@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Docker",
+        "background": "#fff",
+        "logo": "docker.svg"
+    },
+    {
+        "id": 2,
+        "name": "React",
+        "background": "#fff",
+        "logo": "react-2.svg"
+    },
+    {
+        "id": 3,
+        "name": "Node",
+        "background": "#fff",
+        "logo": "nodejs-1.svg"
+    },
+    {
+        "id": 4,
+        "name": "JavaScript",
+        "background": "#f0db4f",
+        "logo": "logo-javascript.svg"
+    },
+    {
+        "id": 5,
+        "name": "HTML",
+        "background": "#fff",
+        "logo": "html5.svg"
+    },
+    {
+        "id": 6,
+        "name": "Css",
+        "background": "#fff",
+        "logo": "css3.svg"
+    },
+    {
+        "id": 7,
+        "name": "TypeScript",
+        "background": "#007acc",
+        "logo": "typescript.svg"
+    },
+    {
+        "id": 8,
+        "name": "Python",
+        "background": "#fff",
+        "logo": "python-4.svg"
+    },
+    {
+        "id": 9,
+        "name": "C++",
+        "background": "#fff",
+        "logo": "c.svg"
+    },
+    {
+        "id": 10,
+        "name": "Git",
+        "background": "#fff",
+        "logo": "git.svg"
+    }
+]

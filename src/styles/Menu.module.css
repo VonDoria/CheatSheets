@@ -1,0 +1,29 @@
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: baseline;
+    padding: 1rem;
+    transition: .5s;
+}
+
+.container .icon{
+    height: 7rem;
+    width: 9rem;
+    background: #fff;
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 2px 2px 2px #777;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container .icon img{
+    height: 100%;
+    /* width: 100%; */
+    transform: scale(.7)
+}

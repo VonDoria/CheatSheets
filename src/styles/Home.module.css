@@ -1,0 +1,8 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+  background: var(--themeGradient);
+}

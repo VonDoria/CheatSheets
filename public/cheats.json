@@ -1,0 +1,26 @@
+[
+    {
+        "description": "Comando pra clonar o repositório",
+        "code": "git clone http...",
+        "save": false,
+        "bookId": 10
+    },
+    {
+        "description": "Fazer um commit",
+        "code": "git commit -m 'nome do commit'",
+        "save": false,
+        "bookId": 10
+    },
+    {
+        "description": "Alterar repositório pra qual o git estara apontando",
+        "code": "git remote add novo-repositório",
+        "save": false,
+        "bookId": 10
+    },
+    {
+        "description": "Mandar pro git hub",
+        "code": "git push origin main",
+        "save": false,
+        "bookId": 10
+    }
+]

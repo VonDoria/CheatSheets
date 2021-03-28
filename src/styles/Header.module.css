@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Satisfy&display=swap');
+
+.container {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--themeGradient);
+  }
+
+  .container .title{
+    margin-left: 10px;
+    font-size: 4rem;
+    font-family: 'Akaya Kanadaka', cursive;
+    color: #fefefe;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .container .search{
+    background-color: #fefefe;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2rem;
+    width: 20%;
+    border-radius: 5px;
+    margin-right: 10rem;
+    box-shadow: 2px 2px 2px #777;
+  }
+
+  .container .search input{
+      border: none;
+      background: transparent;
+      flex: 1;
+      outline: none;
+      margin-left: 1rem;
+      color: rgba(0, 0, 0, 0.76);
+  }
+  
+  .container .search svg{
+      margin: 0 5px;
+      color: var(--theme);
+  }
+
+@media (max-width: 770px){
+    .container{
+        align-items: baseline;
+    }
+    .container .title{
+        margin-left: 15px;
+    }
+    .container .search{
+        margin-right: 1rem;
+        width: 40%;
+    }
+}
