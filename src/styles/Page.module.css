@@ -12,10 +12,34 @@
 
 .container .tips{
     width: fit-content;
-    background-color: teal;
     margin: 10px;
-    padding: 10px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 30vw;
+}
+
+.container .tips svg{
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.container .tips div:first-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to right, var(--theme), #fff);
+}
+
+.container .tips div:last-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #ffffffd7;
 }
 
 .container .close{
@@ -26,7 +50,7 @@
     font-weight: bold;
     display: grid;
     place-items: center;
-    color: #0008;
+    color: var(--theme);
     padding: 5px;
     cursor: pointer;
 }

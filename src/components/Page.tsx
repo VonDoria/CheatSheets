@@ -1,11 +1,20 @@
 import { MainContext } from '@/contexts/MainContext';
-import { useContext, useEffect } from 'react';
+import { useContext } from 'react';
 import styles from '../styles/Page.module.css'
-
+import { AiOutlineStar, AiOutlineCopy } from "react-icons/ai";
 
 export default function Page() {
 
     const { currentList, changeList } = useContext(MainContext);
+
+    // function copyNote(text){
+    //     const el = document.createElement('textarea');
+    //     el.value = text;
+    //     document.body.appendChild(el);
+    //     el.select();
+    //     document.execCommand('copy');
+    //     document.body.removeChild(el);
+    // }
 
     return (
         <div className={styles.container} id="pageModal">
@@ -14,12 +23,16 @@ export default function Page() {
                     return (
                         <div key={index} className={styles.tips}>
                             <div>
-                                {item.description}
-                                <input/>
+                                <span>
+                                    {item.code}
+                                </span>
+                                <AiOutlineStar/>
                             </div>
                             <div>
-                                {item.code}
-                                <button></button>
+                                <span>
+                                    {item.description}
+                                </span>
+                                <AiOutlineCopy/>
                             </div>
                         </div>
                 )})                
